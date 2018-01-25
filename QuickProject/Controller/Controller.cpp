@@ -17,8 +17,8 @@ Controller :: Controller()
 
 void Controller :: start()
 {
-    for (int index = 0; index < 5200; index++)
+    for (int index = 0; index < 10; index++)
     {
-        cout << "MOM, I'VE GOT " << index + 1 << " SUBSCRIBERS, GET THE CAMERA!!" << endl;
+        cout << "At this point I've ran " << index + 1 << " times" << endl;
     }
 }
